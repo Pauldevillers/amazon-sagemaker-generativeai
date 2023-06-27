@@ -2,7 +2,7 @@
     "model_name":"Falcon40B",
     "description":"Falcon 40B",
     "model_type":"Falcon40B",
-    "endpoint_name":"hf-llm-falcon-7b-instruct-bf16-2023-06-27-12-05-10-553",
+    "endpoint_name":"",
     "payload":{
         "parameters":{
             "top_p":{
