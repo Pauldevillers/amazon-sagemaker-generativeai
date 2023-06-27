@@ -148,7 +148,7 @@ def handle_parameters(parameters):
             )
         elif type(minimum) == bool and type(maximum) == bool and type(default) == bool:
             parameters[p] = st.sidebar.selectbox(
-                p, ["True", "False"], help=parameter_help
+                p, [True, False], help=parameter_help
             )
         elif (
             type(minimum) == float and type(maximum) == float and type(default) == float
@@ -224,7 +224,7 @@ def main():
             )
 
     # Prompt Engineering Playground
-    st.header("Prompt Engineering Playground")
+    st.header("Prompt Engineering Playground Paul")
     if selected_endpoint != default_endpoint_option:
         output_text = read_template(f"templates/{selected_endpoint}.template.json")
         output = json.loads(output_text)
@@ -277,7 +277,12 @@ def main():
             #     parameters
             # }
             if parameters != "None":
-                payload = {"text_inputs": prompt, **parameters}
+                if output["model_type"] == "Falcon40B":
+                    
+                    payload={"inputs": prompt, "parameters":{**parameters}}
+                    st.write(payload)
+                else:
+                    payload = {"text_inputs": prompt, **parameters}
             else: 
                 payload = {"text_inputs": prompt}
             if output["model_type"] == "AI21":
