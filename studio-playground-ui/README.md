@@ -100,7 +100,7 @@ git clone https://github.com/Pauldevillers/amazon-sagemaker-generativeai
 7. **Repeat same steps** for **FlanT5-XXL-JS.template.json**, open with **Editor** and replace with your Sagemaker endpoint, don’t forget to SAVE the file, using **CTRL+S.**
 
 ![image](images/falcon40b-template.png)
-8. **Open System Terminal** using Blue + button on the _**top left screen**_ and run command below
+8. Open ``System Terminal`` using Blue ``+`` button on the top left screen and run command below
 
 ```bash
 cd amazon-sagemaker-generativeai/studio-playground-ui/
