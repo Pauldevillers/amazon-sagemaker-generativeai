@@ -30,21 +30,21 @@ The first example centers around leveraging the ``FLAN-T5-XL mode``l, which is a
 
  Specifically, you will learn how the model can comprehend multi-turn customer support chat transcripts and how we can facilitate in-context learning by engineering prompts to enable FLAN-T5-XL to solve various tasks on the provided conversation data.
 
-[Image: image.png]
+![image](images/T5-FLAN-explanation.png)
 
 ## Deployment steps :
 
 1.    Open Sagemaker Jumpstart in ``Home tab`` and click on ``Models, Notebook and solutions``,scroll down to ``Text Models`` and select ``FLAN-T5 XXL`` and click on ``View Model``
 
-[Image: image.png]
+![image](images/T5-jumpstart.png)
 2.    Click on Deployment Configuration and verify hosting instance is ``ml.g5.12xlarge``, click on ``Deploy``
 
-[Image: image.png]
+![image](images/T5-FLAN-deploy.png)
 
 3.    You should see status below, you will need to wait 10 minutes for the endpoint to be deployed
 
 
-[Image: Screenshot 2023-06-28 at 12.30.13.png]
+![image](images/T5-FLAN-endpoint.png)
 ## **Model 2: Falcon 7B Instruct**
 
 
