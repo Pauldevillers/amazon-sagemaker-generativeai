@@ -88,7 +88,7 @@ git clone https://github.com/Pauldevillers/amazon-sagemaker-generativeai
 4. Go inside the ``studio-playground-ui`` folder, located on ``amazon-sagemaker-generativeai/studio-playground-ui.``
 ![image](images/streamlit-path.png)
 
-5. Inside templates folder, right click ``Falcon7B-instruct.template.json`` and  ``Open With**_ file with Editor``
+5. Inside templates folder, right click ``Falcon7B-instruct.template.json`` and  ``Open With `` file with ``Editor``
 
 ![image](images/template-open.png)
 
