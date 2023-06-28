@@ -6,7 +6,7 @@
 
 ## Agenda
 
-1. Deploy foundation models models from Amazon Sagemaker Jumpstart 
+1. Deploy foundation models using Amazon Sagemaker Jumpstart 
 2. Set up UI with Streamlit 
 3. Prompt Engineering with FlanT5-XXL
 4. Use cases for Generative AI with Falcon7B
