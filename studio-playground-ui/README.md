@@ -2,7 +2,7 @@
 [Image: image.png]
 # Immersion Day Generative AI - France
 
-* * *
+
 
 ## Agenda
 
@@ -18,7 +18,7 @@
 
  https://catalog.us-east-1.prod.workshops.aws/workshops/972fd252-36e5-4eed-8608-743e84957f8e/en-US/prerequisites/option1
 
-* * *
+
 
 # Lab 1: Deploy foundation models models from Sagemaker Jumpstart 
 
