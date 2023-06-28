@@ -1,5 +1,5 @@
 
-[Image: image.png]
+![image](images/generativeai_workshop.png)
 # Immersion Day Generative AI - France
 
 
