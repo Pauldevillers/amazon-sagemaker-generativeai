@@ -115,7 +115,7 @@ streamlit run main.py
 ```
 
 
-9. Open Notebook “**Run_My_PlayGround.ipynb” and** run all cells below Installation Of Streamlit UI. Click on the **HTTPS endpoint** to start the Python User interface. 
+9. Open Notebook [Run_My_PlayGround.ipynb](Run_My_PlayGround.ipynb) and** run all cells below Installation Of Streamlit UI. Click on the **HTTPS endpoint** to start the Python User interface. 
 
 ![image](images/notebook-endpoint.png)
 
@@ -132,7 +132,7 @@ https://catalog.us-east-1.prod.workshops.aws/workshops/972fd252-36e5-4eed-8608-7
 
 # Lab 4 : Prompts example for GenAI use case
 
-In the Streamlit UI, select **Falcon7B instruct** and follow **tutorial below:**
+In the Streamlit UI, select **Falcon7B instruct** and open Notebook [Run_My_PlayGround.ipynb](Run_My_PlayGround.ipynb). You can execute the 
 
 
 * * *
