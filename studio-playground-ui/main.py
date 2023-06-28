@@ -224,7 +224,8 @@ def main():
             )
 
     # Prompt Engineering Playground
-    st.header("Prompt Engineering Playground Paul")
+    st.title("French Immersion Day :flag-fr:")
+    st.header("Prompt Engineering Playground ")
     if selected_endpoint != default_endpoint_option:
         output_text = read_template(f"templates/{selected_endpoint}.template.json")
         output = json.loads(output_text)
