@@ -102,15 +102,15 @@ git clone https://github.com/Pauldevillers/amazon-sagemaker-generativeai
 ![image](images/falcon40b-template.png)
 8. **Open System Terminal** using Blue + button on the _**top left screen**_ and run command below
 
-```
+```bash
 cd amazon-sagemaker-generativeai/studio-playground-ui/
 ```
 
-```
+```bash
 pip install boto3 streamlit streamlit-ace -Uq ai21[SM]
 ```
 
-```
+```bash
 streamlit run main.py
 ```
 
@@ -142,8 +142,8 @@ In the Streamlit UI, select **Falcon7B instruct** and open Notebook [Run_My_Play
 
 
 ## 🙇 Author
-#### Paul Devillers, Prototype Architect France
+### Paul Devillers, Prototype Architect France
         
 ## 🙇 Acknowledgements 
-##  Mani Khanuja, AI/ML Specialist Solution Architect
+###  Mani Khanuja, AI/ML Specialist Solution Architect
 
