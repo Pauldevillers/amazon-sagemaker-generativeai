@@ -26,9 +26,9 @@
 
 ## **Model 1: FLAN-T5-XL**
 
-The first example centers around leveraging the ``FLAN-T5-XL mode``l, which is a foundation or large language model, to achieve in-context learning for text generation while also addressing a broad range of natural language understanding (NLU) and natural language generation (NLG) tasks. This model has undergone instruction-tuning, implying it has been fine-tuned on more than 2000 NLU tasks and is capable of comprehending natural language instructions.
+The first example centers around leveraging the ``FLAN-T5-XL model``, which is a foundation or large language model, to achieve in-context learning for text generation while also addressing a broad range of natural language understanding (NLU) and natural language generation (NLG) tasks. This model has undergone instruction-tuning, implying it has been fine-tuned on more than 2000 NLU tasks and is capable of comprehending natural language instructions.
 
- Specifically, you will learn how the model can comprehend multi-turn customer support chat transcripts and how we can facilitate in-context learning by engineering prompts to enable FLAN-T5-XL to solve various tasks on the provided conversation data.
+Specifically, you will learn how the model can comprehend multi-turn customer support chat transcripts and how we can facilitate in-context learning by engineering prompts to enable FLAN-T5-XL to solve various tasks on the provided conversation data.
 
 ![image](images/T5-FLAN-explanation.png)
 
@@ -132,7 +132,7 @@ https://catalog.us-east-1.prod.workshops.aws/workshops/972fd252-36e5-4eed-8608-7
 
 # Lab 4 : Prompts example for GenAI use case
 
-In the Streamlit UI, select **Falcon7B instruct** and open Notebook [Run_My_PlayGround.ipynb](Run_My_PlayGround.ipynb). You can execute the 
+In the Streamlit UI, select **Falcon7B instruct** and open Notebook [Run_My_PlayGround.ipynb](Run_My_PlayGround.ipynb). You can execute the **Generative AI Prompt example with Falcon** section !
 
 
 * * *
@@ -140,4 +140,10 @@ In the Streamlit UI, select **Falcon7B instruct** and open Notebook [Run_My_Play
 
 
 
+
+## 🙇 Author
+#### Paul Devillers, Prototype Architect France
+        
+## 🙇 Acknowledgements 
+##  Mani Khanuja, AI/ML Specialist Solution Architect
 
