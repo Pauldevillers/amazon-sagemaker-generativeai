@@ -39,12 +39,12 @@ Specifically, you will learn how the model can comprehend multi-turn customer su
 ![image](images/T5-jumpstart.png)
 2.    Click on Deployment Configuration and verify hosting instance is ``ml.g5.12xlarge``, click on ``Deploy``
 
-![image](images/T5-FLAN-deploy.png)
+![image](images/T5-deploy.png)
 
 3.    You should see status below, you will need to wait 10 minutes for the endpoint to be deployed
 
 
-![image](images/T5-FLAN-endpoint.png)
+![image](images/T5-endpoint.png)
 ## **Model 2: Falcon 7B Instruct**
 
 
