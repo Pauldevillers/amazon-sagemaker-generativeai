@@ -65,7 +65,8 @@ Falcon is a causal decoder-only model built by [Technology Innovation Institute]
 1. Open Sagemaker Jumpstart in ``Home tab`` and click on ``Models, Notebook and solutions``, scroll down to ``Text Models`` and select ``Falcon 7B Instruct BF16`` and click on *``View Model``
 2. Deploy model, make sure **hosting endpoint is** `ml.g5.2xlarge`
 
-[Image: image.png]
+![image](images/Falcon-deploy.png)
+
 * * *
 
 
@@ -73,10 +74,11 @@ Falcon is a causal decoder-only model built by [Technology Innovation Institute]
 
 1. Go to [Amazon Sagemaker](https://us-east-1.console.aws.amazon.com/sagemaker/home?region=us-east-1#/endpoints) and copy both ``endpoint’s name`` in a local notepad
 
-[Image: image.png]
+![image](images/endpoint-sagemaker.png)
+
 2. Open ``Sagemaker studio`` and ``open System Terminal`` using Blue + button on _``top left screen``
 
-[Image: image.png]
+![image](images/terminal.png)
 3. Clone repository with command below:
 
 ```
@@ -84,20 +86,20 @@ git clone https://github.com/Pauldevillers/amazon-sagemaker-generativeai
 ```
 
 4. Go inside the ``studio-playground-ui`` folder, located on ``amazon-sagemaker-generativeai/studio-playground-ui.``
-
+![image](images/streamlit-path.png)
 
 5. Inside templates folder, right click ``Falcon7B-instruct.template.json`` and  ``Open With**_ file with Editor``
 
-[Image: image.png]
-[Image: image.png]
+![image](images/template-open.png)
 
 
 6. **Edit** Falcon7B-instruct.template.json, replace endpoint name with your Sagemaker endpoint’s name saved on step1, don’t forget to SAVE the file, using **CTRL+S**
 
-[Image: image.png]
+![image](images/template-change.png)
+
 7. **Repeat same steps** for **FlanT5-XXL-JS.template.json**, open with **Editor** and replace with your Sagemaker endpoint, don’t forget to SAVE the file, using **CTRL+S.**
 
-[Image: image.png]
+![image](images/falcon40b-template.png)
 8. **Open System Terminal** using Blue + button on the _**top left screen**_ and run command below
 
 ```
@@ -112,10 +114,10 @@ pip install boto3 streamlit streamlit-ace -Uq ai21[SM]
 streamlit run main.py
 ```
 
-[Image: image.png]
+
 9. Open Notebook “**Run_My_PlayGround.ipynb” and** run all cells below Installation Of Streamlit UI. Click on the **HTTPS endpoint** to start the Python User interface. 
 
-[Image: image.png]
+![image](images/notebook-endpoint.png)
 
 # **Lab 3: Prompt Engineering**
 
@@ -123,7 +125,7 @@ In the Streamlit UI, select  **FlanT5-XXL-JS** and follow **tutorial below:**
 
 https://catalog.us-east-1.prod.workshops.aws/workshops/972fd252-36e5-4eed-8608-743e84957f8e/en-US/lab2/zero-shot
 
-[Image: image.png]
+![image](images/Ui-streamlit.png)
 
 
 * * *
