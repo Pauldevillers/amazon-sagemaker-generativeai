@@ -24,11 +24,11 @@
 
 
 
-## **Model 1: FLAN-T5-XL**
+## **Model 1: FLAN-T5-XLL**
 
-The first example centers around leveraging the ``FLAN-T5-XL model``, which is a foundation or large language model, to achieve in-context learning for text generation while also addressing a broad range of natural language understanding (NLU) and natural language generation (NLG) tasks. This model has undergone instruction-tuning, implying it has been fine-tuned on more than 2000 NLU tasks and is capable of comprehending natural language instructions.
+The first example centers around leveraging the ``FLAN-T5-XLL model``, which is a foundation or large language model, to achieve in-context learning for text generation while also addressing a broad range of natural language understanding (NLU) and natural language generation (NLG) tasks. This model has undergone instruction-tuning, implying it has been fine-tuned on more than 2000 NLU tasks and is capable of comprehending natural language instructions.
 
-Specifically, you will learn how the model can comprehend multi-turn customer support chat transcripts and how we can facilitate in-context learning by engineering prompts to enable FLAN-T5-XL to solve various tasks on the provided conversation data.
+Specifically, you will learn how the model can comprehend multi-turn customer support chat transcripts and how we can facilitate in-context learning by engineering prompts to enable FLAN-T5-XLL to solve various tasks on the provided conversation data.
 
 ![image](images/T5-FLAN-explanation.png)
 
