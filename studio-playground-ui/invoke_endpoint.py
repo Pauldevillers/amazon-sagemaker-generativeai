@@ -9,25 +9,27 @@ def generate_text(payload, endpoint_name):
     response = sagemaker_runtime.invoke_endpoint(
         EndpointName=endpoint_name, ContentType="application/json", Body=encoded_input
     )
-    print("Model input: \n", encoded_input)
     result = json.loads(response["Body"].read())
+    print(result[0]["generated_text"])
+    return result[0]["generated_text"]
     
-    # - this works for faster transformr and DJL containers
-    for item in result:
-        #print(f" Item={item}, type={type(item)}")
-        if isinstance(item, list):
-            for element in item:
-                if isinstance(element, dict):
-                    #print(f"List:element::is: {element['generated_text']} ")
-                    return element["generated_text"]
-        elif isinstance(item, str):
-            # print(item["generated_text"])
-            # return item["generated_text"]
-            print(f"probably:Item:from:dict::result[item]={result[item]}")
-            return result[item]
-        else:
-            # print(item["generated_text"])
-            return item["generated_text"]
+    
+    # # - this works for faster transformr and DJL containers
+    # for item in result:
+    #     #print(f" Item={item}, type={type(item)}")
+    #     if isinstance(item, list):
+    #         for element in item:
+    #             if isinstance(element, dict):
+    #                 #print(f"List:element::is: {element['generated_text']} ")
+    #                 return element["generated_text"]
+    #     elif isinstance(item, str):
+    #         # print(item["generated_text"])
+    #         # return item["generated_text"]
+    #         print(f"probably:Item:from:dict::result[item]={result[item]}")
+    #         return result[item]
+    #     else:
+    #         # print(item["generated_text"])
+    #         return item["generated_text"]
 
 def generate_text_ai21(payload, endpoint_name):
     print("payload type: ", type(payload))

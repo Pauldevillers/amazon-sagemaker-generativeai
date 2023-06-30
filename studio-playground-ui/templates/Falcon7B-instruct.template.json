@@ -2,28 +2,28 @@
     "model_name":"Falcon40B",
     "description":"Falcon 40B",
     "model_type":"Falcon40B",
-    "endpoint_name":"",
+    "endpoint_name":"jumpstart-dft-hf-llm-falcon-7b-instruct-bf16",
     "payload":{
         "parameters":{
             "top_p":{
-                "default":0.95,
+                "default":0.90,
                 "range":[
                    0.0,
                    1.0
                 ]
              },
             "temperature":{
-               "default":0.5,
+               "default":0.8,
                "range":[
                   0.0,
                   1.0
                ]
             },
             "max_new_tokens":{
-                "default":500,
+                "default":200,
                 "range":[
                    1,
-                   2000
+                   500
                 ]
             },
             "do_sample":{
@@ -33,26 +33,16 @@
                    false
                 ]
             },
-            "stopwords_list": {
+            "stop": {
                 "default": [
-                  "<|endoftext|>",
-                  "</s>"
+                    "\n"
+                  
                 ],
                 "range": [
                   "<|endoftext|>",
                   "</s>",
-                  "the",
-                  "and",
-                  "it",
-                  "for",
-                  "or",
-                  "but",
-                  "in",
-                  "my",
-                  "your",
-                  "our",
-                  "stop",
-                  "dot"
+                  "[Text]",
+                  "\n"
                 ]
             }
         }
