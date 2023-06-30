@@ -121,7 +121,7 @@ streamlit run main.py
 
 # **Lab 3: Prompt Engineering**
 
-##### In the Streamlit UI, select  **FlanT5-XXL-JS** and follow this [tutorial](https://catalog.us-east-1.prod.workshops.aws/workshops/972fd252-36e5-4eed-8608-743e84957f8e/en-US/lab2/zero-shot)
+###### In the Streamlit UI, select  **FlanT5-XXL-JS** and follow this [tutorial](https://catalog.us-east-1.prod.workshops.aws/workshops/972fd252-36e5-4eed-8608-743e84957f8e/en-US/lab2/zero-shot)
 
 
 
