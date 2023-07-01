@@ -69,7 +69,7 @@ It was built using custom-built tooling for data pre-processing and model traini
 **Instruct models (Falcon-7b-instruct/Falcon-40B-instruct):** Instruct models are base falcon models fine-tuned on a mixture of chat and instruction datasets. They are ready-to-use chat/instruct models. 
 
 
-### Falcon7B vs FlanT5-XXL
+## Falcon7B vs FlanT5-XXL
 
 
 | Model | Use case |
