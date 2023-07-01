@@ -35,14 +35,13 @@
             },
             "stop": {
                 "default": [
-                    "\nUser"
+                    "stop-word"
                   
                 ],
                 "range": [
                   "\nUser",
                   "</s>",
-                  "[Text]",
-                  "\n"
+                  "stop-word"
                 ]
             }
         }
