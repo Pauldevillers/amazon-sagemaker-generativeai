@@ -281,7 +281,7 @@ def main():
                 if output["model_type"] == "Falcon40B":
                     
                     payload={"inputs": prompt, "parameters":{**parameters}}
-                    st.write(payload)
+                    
                 else:
                     payload = {"text_inputs": prompt, **parameters}
             else: 

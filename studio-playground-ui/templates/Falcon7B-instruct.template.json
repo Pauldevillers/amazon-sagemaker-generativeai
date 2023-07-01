@@ -2,7 +2,7 @@
     "model_name":"Falcon40B",
     "description":"Falcon 40B",
     "model_type":"Falcon40B",
-    "endpoint_name":"",
+    "endpoint_name":"jumpstart-dft-hf-llm-falcon-7b-instruct-bf16",
     "payload":{
         "parameters":{
             "top_p":{
@@ -35,11 +35,11 @@
             },
             "stop": {
                 "default": [
-                    "\n"
+                    "\nUser"
                   
                 ],
                 "range": [
-                  "<|endoftext|>",
+                  "\nUser",
                   "</s>",
                   "[Text]",
                   "\n"
