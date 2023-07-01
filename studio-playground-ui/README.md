@@ -28,11 +28,14 @@ Make sure you follow this [prerequisite](https://catalog.us-east-1.prod.workshop
 
 ## **Model 1: FLAN-T5-XXL**
 
-The first example centers around leveraging the ``FLAN-T5-XXL model``, which is a foundation or large language model, to achieve in-context learning for text generation while also addressing a broad range of natural language understanding (NLU) and natural language generation (NLG) tasks. This model has undergone instruction-tuning, implying it has been fine-tuned on more than 2000 NLU tasks and is capable of comprehending natural language instructions.
+The first example centers around leveraging the ``FLAN-T5-XXL model``, which is a foundation or large language model, to achieve in-context learning for text generation while also addressing a broad range of natural language understanding (NLU) and natural language generation (NLG) tasks. This model has undergone instruction-tuning, implying it has been fine-tuned on more than 2000 NLU tasks and is capable of comprehending  **complex natural language instructions**.
 
-Specifically, you will learn how the model can comprehend multi-turn customer support chat transcripts and how we can facilitate in-context learning by engineering prompts to enable FLAN-T5-XXL to solve various tasks on the provided conversation data.
+Indeed, FLAN-T5-XXL is trained on 1000+ tasks with 11B parameters using an **encoder decoder architecture** , hence it can comprenhend complex text input and perform tasks such as Question Answering, Topic extraction ,Commonsense Reasoning or Title/context generation. 
+
 
 ![image](images/T5-FLAN-explanation.png)
+
+
 
 ## Deployment steps :
 
@@ -50,7 +53,11 @@ Specifically, you will learn how the model can comprehend multi-turn customer su
 ## **Model 2: Falcon 7B Instruct**
 
 
-Falcon is a causal decoder-only model built by [Technology Innovation Institute](https://www.tii.ae/) (TII) and trained on more than 1 trillion tokens of RefinedWeb enhanced with curated corpora. It was built using custom-built tooling for data pre-processing and model training built on Amazon SageMaker. As of June 6, 2023, it is the best open-source model currently available. Falcon-40B outperforms LLaMA, StableLM, RedPajama, MPT, etc. To see comparison, see [OpenLLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard). It features an architecture optimized for inference, with FlashAttention and multiquery.
+Falcon is a **causal decoder-only** model built by [Technology Innovation Institute](https://www.tii.ae/) (TII) and trained on more than **1 trillion tokens of RefinedWeb** enhanced with curated corpora. 
+
+A decoder-only model predict next tokens based on previously observed input. It is great for use case such as Text Generation, Question answering or Translation.
+
+It was built using custom-built tooling for data pre-processing and model training built on Amazon SageMaker. As of June 6, 2023, it is the best open-source model currently available. Falcon-40B outperforms LLaMA, StableLM, RedPajama, MPT, etc. To see comparison, see [OpenLLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard). It features an architecture optimized for inference, with FlashAttention and multiquery.
 
 [Image: image.png]
 [Refined Web Dataset](https://huggingface.co/datasets/tiiuae/falcon-refinedweb): Falcon RefinedWeb is a massive English web dataset built by TII and released under an Apache 2.0 license. It is a highly filtered dataset with large scale de-duplication of CommonCrawl. It is observed that models trained on RefinedWeb achieve performance equal to or better than performance achieved by training model on curated datasets, while only relying on web data.
@@ -60,6 +67,15 @@ Falcon is a causal decoder-only model built by [Technology Innovation Institute]
 * **Falcon-40B**: It is a 40 billion parameter model trained on 1 trillion tokens. It has surpassed renowned models like LLaMA-65B, StableLM, RedPajama and MPT on the public leaderboard maintained by Hugging Face, demonstrating its exceptional performance without specialized fine-tuning. To see comparison, see [OpenLLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard).
 
 **Instruct models (Falcon-7b-instruct/Falcon-40B-instruct):** Instruct models are base falcon models fine-tuned on a mixture of chat and instruction datasets. They are ready-to-use chat/instruct models. 
+
+
+### Falcon7B vs FlanT5-XXL
+
+
+| Model | Use case |
+| --- | --- |
+| `Falcon7B` | Chatbot, Question answering on known topic, summarization |
+| `FlanT5-XXL` | Input extraction (title, topic, ect), yes/no question answering, Reasonal thinking |
 
 
 ## Deployment steps :
