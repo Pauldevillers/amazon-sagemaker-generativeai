@@ -59,7 +59,7 @@ A decoder-only model predict next tokens based on previously observed input. It 
 
 It was built using custom-built tooling for data pre-processing and model training built on Amazon SageMaker. As of June 6, 2023, it is the best open-source model currently available. Falcon-40B outperforms LLaMA, StableLM, RedPajama, MPT, etc. To see comparison, see [OpenLLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard). It features an architecture optimized for inference, with FlashAttention and multiquery.
 
-[Image: image.png]
+
 [Refined Web Dataset](https://huggingface.co/datasets/tiiuae/falcon-refinedweb): Falcon RefinedWeb is a massive English web dataset built by TII and released under an Apache 2.0 license. It is a highly filtered dataset with large scale de-duplication of CommonCrawl. It is observed that models trained on RefinedWeb achieve performance equal to or better than performance achieved by training model on curated datasets, while only relying on web data.
 **Model Sizes:**
 
@@ -71,11 +71,11 @@ It was built using custom-built tooling for data pre-processing and model traini
 
 ## Falcon7B vs FlanT5-XXL
 
-
 | Model | Use case |
 | --- | --- |
-| `Falcon7B` | Chatbot, Question answering on known topic, summarization |
-| `FlanT5-XXL` | Input extraction (title, topic, ect), yes/no question answering, Reasonal thinking |
+| `Falcon7B` | Chatbot, Question answering on known topic, Summarization |
+| `FlanT5-XXL` | Input extraction (title, topic, ect), Yes/No question answering, Reasonal thinking |
+
 
 
 ## Deployment steps :
