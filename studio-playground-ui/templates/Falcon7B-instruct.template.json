@@ -20,7 +20,7 @@
                ]
             },
             "max_new_tokens":{
-                "default":300,
+                "default":200,
                 "range":[
                    1,
                    500
