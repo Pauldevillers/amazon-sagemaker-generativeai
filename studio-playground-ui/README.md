@@ -66,7 +66,7 @@ It was built using custom-built tooling for data pre-processing and model traini
 * ``Falcon-7b``: It is a 7 billion parameter model trained on 1.5 trillion tokens. It outperforms comparable open-source models (e.g., MPT-7B, StableLM, RedPajama etc.). To see comparison, see [OpenLLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard). 
 * ``Falcon-40B``: It is a 40 billion parameter model trained on 1 trillion tokens. It has surpassed renowned models like LLaMA-65B, StableLM, RedPajama and MPT on the public leaderboard maintained by Hugging Face, demonstrating its exceptional performance without specialized fine-tuning. To see comparison, see [OpenLLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard).
 
-Instruct models such as ``Falcon-7b-instruct``:** Instruct models are base falcon models fine-tuned on a mixture of chat and instruction datasets. They are ready-to-use ``chat/instruct models``.
+Instruct models such as ``Falcon-7b-instruct``: Instruct models are base falcon models fine-tuned on a mixture of chat and instruction datasets. They are ready-to-use ``chat/instruct models``.
 
 
 ## Falcon7B vs FlanT5-XXL
