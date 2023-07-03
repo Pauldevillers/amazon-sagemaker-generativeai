@@ -126,9 +126,11 @@ git clone https://github.com/Pauldevillers/amazon-sagemaker-generativeai
 cd amazon-sagemaker-generativeai/studio-playground-ui/
 ```
 
+
 ```bash
 pip install boto3 streamlit streamlit-ace -Uq ai21[SM]
 ```
+**Ignore warnings or depency erros**
 
 ```bash
 streamlit run main.py
