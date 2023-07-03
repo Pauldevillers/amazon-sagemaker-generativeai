@@ -30,7 +30,7 @@ Make sure you follow this [prerequisite](https://catalog.us-east-1.prod.workshop
 
 The first example centers around leveraging the ``FLAN-T5-XXL model``, which is a foundation or large language model, to achieve in-context learning for text generation while also addressing a broad range of natural language understanding (NLU) and natural language generation (NLG) tasks. This model has undergone instruction-tuning, implying it has been fine-tuned on more than 2000 NLU tasks and is capable of comprehending  **complex natural language instructions**.
 
-Indeed, FLAN-T5-XXL is trained on 1000+ tasks with 11B parameters using an **encoder decoder architecture** , hence it can comprenhend complex text input and perform tasks such as Question Answering, Topic extraction ,Commonsense Reasoning or Title/context generation. 
+FLAN-T5-XXL is trained on **1000+ tasks with 11B parameters**  using an **encoder-decoder** architecture, hence it can comprehend complex text input and perform tasks such as question answering, topic extraction, commonsense reasoning, or title/context generation.
 
 
 ![image](images/T5-FLAN-explanation.png)
