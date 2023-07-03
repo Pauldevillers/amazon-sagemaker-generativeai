@@ -137,7 +137,11 @@ streamlit run main.py
 ```
 
 
-9. Open Notebook [Run_My_PlayGround.ipynb](Run_My_PlayGround.ipynb) and run all cells below Installation Of Streamlit UI. Click on the **HTTPS endpoint** to start the Python User interface. 
+9. Open Notebook [Run_My_PlayGround.ipynb](Run_My_PlayGround.ipynb), start Kernel by clicking on ``Python3 button`` (buttom page) and run all cells below ``Installation Of Streamlit UI``. 
+
+![image](images/start-kernel.png)
+
+10. Click on the ``HTTPS endpoint`` to start the Python User interface. 
 
 ![image](images/notebook-endpoint.png)
 
