@@ -35,13 +35,14 @@
             },
             "stop": {
                 "default": [
-                    "\nUser"
+                    "\nUser",
+                    "<|endoftext|>"
                   
                 ],
                 "range": [
                   "\nUser",
                   "</s>",
-                  "stop-word"
+                  "<|endoftext|>"
                 ]
             }
         }
