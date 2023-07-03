@@ -278,7 +278,7 @@ def main():
             #     parameters
             # }
             if parameters != "None":
-                if output["model_type"] == "Falcon40B":
+                if output["model_type"] == "Falcon7B":
                     
                     payload={"inputs": prompt, "parameters":{**parameters}}
                     

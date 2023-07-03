@@ -1,7 +1,7 @@
 {
-    "model_name":"Falcon40B",
-    "description":"Falcon 40B",
-    "model_type":"Falcon40B",
+    "model_name":"Falcon7B",
+    "description":"Falcon 7B",
+    "model_type":"Falcon7B",
     "endpoint_name":"",
     "payload":{
         "parameters":{
@@ -20,7 +20,7 @@
                ]
             },
             "max_new_tokens":{
-                "default":200,
+                "default":300,
                 "range":[
                    1,
                    500
@@ -35,7 +35,7 @@
             },
             "stop": {
                 "default": [
-                    "stop-word"
+                    "\nUser"
                   
                 ],
                 "range": [
