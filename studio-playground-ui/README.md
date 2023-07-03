@@ -128,7 +128,7 @@ cd amazon-sagemaker-generativeai/studio-playground-ui/
 
 
 ```bash
-pip install boto3 streamlit streamlit-ace -Uq ai21[SM]
+pip install boto3 streamlit streamlit-ace --quiet
 ```
 **Ignore warnings or depency erros**
 
