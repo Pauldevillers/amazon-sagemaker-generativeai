@@ -53,20 +53,20 @@ FLAN-T5-XXL is trained on ``1000+ tasks with 11B parameters``  using an ``encode
 ## **Model 2: Falcon 7B Instruct**
 
 
-Falcon is a **causal decoder-only** model built by [Technology Innovation Institute](https://www.tii.ae/) (TII) and trained on more than **1 trillion tokens of RefinedWeb** enhanced with curated corpora. 
+Falcon is a causal ``decoder-only`` model built by [Technology Innovation Institute](https://www.tii.ae/) (TII) and trained on more than ``1 trillion tokens of RefinedWeb`` enhanced with curated corpora. 
 
 A decoder-only model predict next tokens based on previously observed input. It is great for use case such as Text Generation, Question answering or Translation.
 
-It was built using custom-built tooling for data pre-processing and model training built on Amazon SageMaker. As of June 6, 2023, it is the best open-source model currently available. Falcon-40B outperforms LLaMA, StableLM, RedPajama, MPT, etc. To see comparison, see [OpenLLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard). It features an architecture optimized for inference, with FlashAttention and multiquery.
+It was built using custom-built tooling for data pre-processing and model training built on Amazon SageMaker. As of June 6, 2023, it is the ``best open-source model`` currently available. Falcon-40B outperforms LLaMA, StableLM, RedPajama, MPT, etc. To see comparison, see [OpenLLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard). It features an architecture optimized for inference, with FlashAttention and multiquery.
 
 
 [Refined Web Dataset](https://huggingface.co/datasets/tiiuae/falcon-refinedweb): Falcon RefinedWeb is a massive English web dataset built by TII and released under an Apache 2.0 license. It is a highly filtered dataset with large scale de-duplication of CommonCrawl. It is observed that models trained on RefinedWeb achieve performance equal to or better than performance achieved by training model on curated datasets, while only relying on web data.
 **Model Sizes:**
 
-* **Falcon-7b**: It is a 7 billion parameter model trained on 1.5 trillion tokens. It outperforms comparable open-source models (e.g., MPT-7B, StableLM, RedPajama etc.). To see comparison, see [OpenLLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard). 
-* **Falcon-40B**: It is a 40 billion parameter model trained on 1 trillion tokens. It has surpassed renowned models like LLaMA-65B, StableLM, RedPajama and MPT on the public leaderboard maintained by Hugging Face, demonstrating its exceptional performance without specialized fine-tuning. To see comparison, see [OpenLLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard).
+* ``Falcon-7b``: It is a 7 billion parameter model trained on 1.5 trillion tokens. It outperforms comparable open-source models (e.g., MPT-7B, StableLM, RedPajama etc.). To see comparison, see [OpenLLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard). 
+* ``Falcon-40B``: It is a 40 billion parameter model trained on 1 trillion tokens. It has surpassed renowned models like LLaMA-65B, StableLM, RedPajama and MPT on the public leaderboard maintained by Hugging Face, demonstrating its exceptional performance without specialized fine-tuning. To see comparison, see [OpenLLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard).
 
-**Instruct models (Falcon-7b-instruct/Falcon-40B-instruct):** Instruct models are base falcon models fine-tuned on a mixture of chat and instruction datasets. They are ready-to-use chat/instruct models. 
+Instruct models such as ``Falcon-7b-instruct``:** Instruct models are base falcon models fine-tuned on a mixture of chat and instruction datasets. They are ready-to-use ``chat/instruct models``.
 
 
 ## Falcon7B vs FlanT5-XXL
