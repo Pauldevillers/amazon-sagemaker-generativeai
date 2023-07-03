@@ -111,11 +111,11 @@ git clone https://github.com/Pauldevillers/amazon-sagemaker-generativeai
 ![image](images/template-open.png)
 
 
-6. **Edit** Falcon7B-instruct.template.json, replace endpoint name with your Sagemaker endpoint’s name saved on step1, don’t forget to SAVE the file, using **CTRL+S**
+6. ``Edit`` ``Falcon7B-instruct.template.json``, replace endpoint name with your Sagemaker endpoint’s name saved on step1, don’t forget to SAVE the file, using ``CTRL+S``
 
 ![image](images/template-change.png)
 
-7. **Repeat same steps** for **FlanT5-XXL-JS.template.json**, open with **Editor** and replace with your Sagemaker endpoint, don’t forget to SAVE the file, using **CTRL+S.**
+7. **Repeat same steps** for ``FlanT5-XXL-JS.template.json``, open with ``Editor`` and replace with your Sagemaker endpoint, don’t forget to SAVE the file, using ``CTRL+S.``
 
 ![image](images/falcon40b-template.png)
 8. Open ``System Terminal`` using Blue ``+`` button on the top left screen and run command below
@@ -133,7 +133,7 @@ streamlit run main.py
 ```
 
 
-9. Open Notebook [Run_My_PlayGround.ipynb](Run_My_PlayGround.ipynb) and** run all cells below Installation Of Streamlit UI. Click on the **HTTPS endpoint** to start the Python User interface. 
+9. Open Notebook [Run_My_PlayGround.ipynb](Run_My_PlayGround.ipynb) and run all cells below Installation Of Streamlit UI. Click on the **HTTPS endpoint** to start the Python User interface. 
 
 ![image](images/notebook-endpoint.png)
 
