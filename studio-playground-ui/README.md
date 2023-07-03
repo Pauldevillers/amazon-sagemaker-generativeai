@@ -9,7 +9,7 @@
 1. Deploy foundation models using [Amazon Sagemaker Jumpstart](https://aws.amazon.com/sagemaker/jumpstart/?sagemaker-data-wrangler-whats-new.sort-by=item.additionalFields.postDateTime&sagemaker-data-wrangler-whats-new.sort-order=desc)
 2. Set up UI with [Streamlit](https://streamlit.io/)
 3. Prompt Engineering with [FlanT5-XXL](https://huggingface.co/google/flan-t5-xxl)
-4. Use cases for Generative AI with [Falcon7B](https://huggingface.co/tiiuae/falcon-7b)
+4. Use cases for Generative AI with [Falcon7B](https://huggingface.co/tiiuae/falcon-7b) and [FlanT5-XXL](https://huggingface.co/google/flan-t5-xxl)
 
 
 
