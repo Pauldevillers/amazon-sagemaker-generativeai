@@ -120,6 +120,8 @@ git clone https://github.com/Pauldevillers/amazon-sagemaker-generativeai
 ![image](images/falcon40b-template.png)
 8. Open ``System Terminal`` using Blue ``+`` button on the top left screen and run command below
 
+![image](images/terminal.png)
+
 ```bash
 cd amazon-sagemaker-generativeai/studio-playground-ui/
 ```
