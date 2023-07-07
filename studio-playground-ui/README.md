@@ -29,9 +29,11 @@
 ![image](images/validation-signin.png)
 
 
-4. You are redirected to the Team Dashboard. Click on ``AWS Console``. Click on ``Open AWS Console``
+4. You are redirected to the Team Dashboard. Click on ``AWS Console`` then click on ``Open AWS Console``
 
-![image](images/aws-console.png)
+Solarized dark             |  Solarized Ocean
+:-------------------------:|:-------------------------:
+!![image](images/aws-console.png) |  ![image](images/open-aws-console.png)
 
 # Lab 1: Deploy foundation models models from Sagemaker Jumpstart 
 
