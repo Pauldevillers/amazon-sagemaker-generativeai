@@ -16,11 +16,13 @@
 
 # Prerequisite:
 
+## Event Engine AWS Account accessHeader anchor link
+
 1. Go to: https://dashboard.eventengine.run/login. You will be redirected to the page below, enter the event hash you have received from your instructor.
 
 ![image](images/eventengine.png)
 
-2.Click on ```Email One-Time Password (OTP)``` and enter your ``email address`` and click on ``Send passcode``
+2. Click on ```Email One-Time Password (OTP)``` and enter your ``email address`` and click on ``Send passcode``
 
 ![image](images/sign-in.png)
 
@@ -34,6 +36,16 @@
 Team Dashboard            |  Open AWS console
 :-------------------------:|:-------------------------:
 ![image](images/aws-console.png) |  ![image](images/open-aws-console.png)
+
+
+## Set up Amazon Sagemaker Studio
+
+Amazon SageMaker Studio is a web-based, integrated development environment (IDE) for machine learning that lets you build, train, debug, deploy, and monitor your machine learning models. Studio provides all the tools you need to take your models from experimentation to production while boosting your productivity.
+
+If the AWS Account has been provisioned by your AWS Instructor, follow the next steps to access the SageMaker Studio environment:
+
+1. Open AWS console and switch to AWS region communicated by your instructor.
+
 
 # Lab 1: Deploy foundation models models from Sagemaker Jumpstart 
 
