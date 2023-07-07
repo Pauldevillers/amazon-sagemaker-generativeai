@@ -31,7 +31,7 @@
 
 4. You are redirected to the Team Dashboard. Click on ``AWS Console`` then click on ``Open AWS Console``
 
-Solarized dark             |  Solarized Ocean
+Team Dashboard            |  Open AWS console
 :-------------------------:|:-------------------------:
 !![image](images/aws-console.png) |  ![image](images/open-aws-console.png)
 
