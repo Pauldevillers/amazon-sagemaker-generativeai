@@ -12,8 +12,8 @@
 4. Prompt Engineering with [FlanT5-XXL](https://huggingface.co/google/flan-t5-xxl)
 5. Use cases for Generative AI with [Falcon7B](https://huggingface.co/tiiuae/falcon-7b) and [FlanT5-XXL](https://huggingface.co/google/flan-t5-xxl)
 
- **Warning**
- #### Make sure you complete Prerequisite below before starting labs
+>**Warning**
+>#### Make sure you complete Prerequisite below before starting labs
 
 
 <details>
