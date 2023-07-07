@@ -33,7 +33,7 @@
 
 Team Dashboard            |  Open AWS console
 :-------------------------:|:-------------------------:
-!![image](images/aws-console.png) |  ![image](images/open-aws-console.png)
+![image](images/aws-console.png) |  ![image](images/open-aws-console.png)
 
 # Lab 1: Deploy foundation models models from Sagemaker Jumpstart 
 
