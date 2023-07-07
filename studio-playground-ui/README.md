@@ -58,6 +58,8 @@ If the AWS Account has been provisioned by your AWS Instructor, follow the next 
 
 4. The page can take 1 or 2 minutes to load when you access SageMaker Studio for the first time. 
 
+##### If you encounter an error please reach out to facilators
+
 </details>
 
 
