@@ -14,7 +14,7 @@
 
 > **Warning**
 > Make sure you complete Prerequisite below before starting labs
-```
+
 
 <details>
 <summary><h1>Prerequisite</h1></summary>
