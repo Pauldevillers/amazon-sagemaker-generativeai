@@ -11,10 +11,12 @@
 3. Prompt Engineering with [FlanT5-XXL](https://huggingface.co/google/flan-t5-xxl)
 4. Use cases for Generative AI with [Falcon7B](https://huggingface.co/tiiuae/falcon-7b) and [FlanT5-XXL](https://huggingface.co/google/flan-t5-xxl)
 
+<details>
+<summary><h1>Prerequisite</h1></summary>
 
 
 
-# Prerequisite:
+
 
 ## Event Engine AWS Account accessHeader anchor link
 
@@ -46,7 +48,7 @@ If the AWS Account has been provisioned by your AWS Instructor, follow the next 
 
 1. Open AWS console and switch to AWS region communicated by your instructor.
 
-
+</details>
 # Lab 1: Deploy foundation models models from Sagemaker Jumpstart 
 
 ## **Model 1: FLAN-T5-XXL**
