@@ -20,7 +20,7 @@
 
 ![image](images/eventengine.png)
 
-2.Click on ```Email One-Time Password (OTP)``` and enter your ```email address`` and click on ``Send passcode``
+2.Click on ```Email One-Time Password (OTP)``` and enter your ``email address`` and click on ``Send passcode``
 
 ![image](images/sign-in.png)
 
