@@ -14,11 +14,15 @@
 
 
 
-### Prerequisite:
+# Prerequisite:
 
-Make sure you follow this [prerequisite](https://catalog.us-east-1.prod.workshops.aws/workshops/972fd252-36e5-4eed-8608-743e84957f8e/en-US/prerequisites/option1
-) before starting the Immersion day
+1. Go to: https://dashboard.eventengine.run/login. You will be redirected to the page below, enter the event hash you have received from your instructor.
 
+![image](images/eventengine.png)
+
+2.Click on ```Email One-Time Password (OTP)``` and enter your ```email address`` and click on ``Send passcode``
+
+![image](images/sign-in.png)
 
 
 
