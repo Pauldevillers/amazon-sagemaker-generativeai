@@ -46,9 +46,21 @@ Amazon SageMaker Studio is a web-based, integrated development environment (IDE)
 
 If the AWS Account has been provisioned by your AWS Instructor, follow the next steps to access the SageMaker Studio environment:
 
-1. Open AWS console and switch to AWS region communicated by your instructor.
+1. Open AWS console and switch to AWS region communicated by your instructor. Under services search for ``Amazon SageMaker``.
+![image](images/sagemaker-console.png)
+
+2. Under Domains, ``click`` on the ``domain name``.
+
+![image](images/domain-sagemaker.png)
+
+3. A SageMaker Studio environment should already be provisioned. Click on ``Launch`` (on the right side of the preprovisioned sagemakeruser username).
+![image](images/launch-studio.png)
+
+4. The page can take 1 or 2 minutes to load when you access SageMaker Studio for the first time. 
 
 </details>
+
+
 # Lab 1: Deploy foundation models models from Sagemaker Jumpstart 
 
 ## **Model 1: FLAN-T5-XXL**
