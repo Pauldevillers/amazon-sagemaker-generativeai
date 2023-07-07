@@ -24,11 +24,16 @@
 
 ![image](images/sign-in.png)
 
+3. Check your mailbox, copy-paste the one-time password and click on ``Sign in``. 
 
+![image](images/validation-signin.png)
+
+
+4. You are redirected to the Team Dashboard. Click on ``AWS Console``
+
+![image](images/aws-console.png)
 
 # Lab 1: Deploy foundation models models from Sagemaker Jumpstart 
-
-
 
 ## **Model 1: FLAN-T5-XXL**
 
