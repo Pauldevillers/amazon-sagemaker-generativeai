@@ -29,7 +29,7 @@
 ![image](images/validation-signin.png)
 
 
-4. You are redirected to the Team Dashboard. Click on ``AWS Console``
+4. You are redirected to the Team Dashboard. Click on ``AWS Console``. Click on ``Open AWS Console``
 
 ![image](images/aws-console.png)
 
